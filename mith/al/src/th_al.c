@@ -1020,7 +1020,7 @@ enum nargv
 #ifdef C_CONTEXT_NUM
     CONTEXT,
 #endif
-#ifdef I_ITERATION_NU
+#ifdef I_ITERATION_NUM
     ITER,
 #endif
     LAST_ARGV
@@ -1037,7 +1037,7 @@ char *argv[] = {
 #ifdef C_CONTEXT_NUM
 	"-c" _cm_xstr(C_CONTEXT_NUM),
 #endif
-#ifdef I_ITERATION_NU
+#ifdef I_ITERATION_NUM
 	"-i" _cm_xstr(I_ITERATION_NUM)
 #endif
 };
